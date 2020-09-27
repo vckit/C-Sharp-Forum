@@ -2,6 +2,6 @@
 ### Привет! Будущие программисты. Посетив мой курс по программированию и разработке Информационных Систем, вы сможете в кратчайшие сроки освоить нужные навыки.
 ># Проекты
 
-### Все проекты будут тут [Наши проекты](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF)
+### Все проекты будут [тут](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF)
  + **Первый проект**
 ***[Авторизация по уровням доступа](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF/C-Sharp-Forum1)***
