@@ -1,5 +1,7 @@
 ># C-Sharp-Forum -> C# форму программистов
 ### Привет! Будущие программисты. Посетив мой курс по программированию и разработке Информационных Систем, вы сможете в кратчайшие сроки освоить нужные навыки.
->>Проекты
-`[Наши проекты](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF)`
->>> Первый проект`[Авторизация по уровням доступа](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF/C-Sharp-Forum1)`
+>Проекты
+
+### [Наши проекты](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF)
+>> + Первый проект
+### [Авторизация по уровням доступа](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF/C-Sharp-Forum1)
