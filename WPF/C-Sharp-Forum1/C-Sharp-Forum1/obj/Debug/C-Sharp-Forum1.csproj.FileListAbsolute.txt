@@ -21,3 +21,5 @@ A:\Курсы\WPF\C-Sharp-Forum1\C-Sharp-Forum1\bin\Debug\EntityFramework.SqlSer
 A:\Курсы\WPF\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\C-Sharp-Forum1.csprojAssemblyReference.cache
 A:\Курсы\WPF\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\C-Sharp-Forum1_Content.g.cs
 A:\Курсы\WPF\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\C-Sharp-Forum1.csproj.CopyComplete
+A:\Курсы\WPF\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\Views\Pages\AdminPages\CreateUserPage.g.cs
+A:\Курсы\WPF\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\Views\Pages\AdminPages\CreateUserPage.baml

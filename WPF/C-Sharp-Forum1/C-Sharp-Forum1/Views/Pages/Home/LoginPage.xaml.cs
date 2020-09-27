@@ -1,4 +1,5 @@
 ﻿using C_Sharp_Forum1.Context;
+using C_Sharp_Forum1.Views.Pages.AdminPages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,10 +36,9 @@ namespace C_Sharp_Forum1.Views.Pages.Home
                 item.Password == psbPassword.Password);
                 // Проверяем, есть ли в Базе Такой пользователь
                 if (currentUser == null)
-                    MessageBox.Show("Вы ввели неверные данные авторизации! Пожалуйста, повторите попытку...", "Не верно!", 
-                        MessageBoxButton.OK, 
+                    MessageBox.Show("Вы ввели неверные данные авторизации! Пожалуйста, повторите попытку...", "Не верно!",
+                        MessageBoxButton.OK,
                         MessageBoxImage.Exclamation);
-                // Простите, что на такой большой промежуток вермени отключился... добавьте этот кусочек кода
                 // Если есть, то должны определить, Администратор это или Пользователь
                 else
                 {
@@ -47,6 +47,7 @@ namespace C_Sharp_Forum1.Views.Pages.Home
                     {
                         case "A":
                             MessageBox.Show("Привет Администратор " + currentUser.Username);
+                            NavigationService.Navigate(new CreateUserPage());
                             break;
                         case "U":
                             MessageBox.Show("Привет Пользователь " + currentUser.Username);

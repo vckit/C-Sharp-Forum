@@ -64,6 +64,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Views\Pages\AdminPages\CreateUserPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Pages\Home\LoginPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -97,6 +101,9 @@
     </Compile>
     <Compile Include="Models\User.cs">
       <DependentUpon>ContextModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\AdminPages\CreateUserPage.xaml.cs">
+      <DependentUpon>CreateUserPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Pages\Home\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
