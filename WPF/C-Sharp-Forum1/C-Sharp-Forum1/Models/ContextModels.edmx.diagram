@@ -6,7 +6,7 @@
     <edmx:Diagrams>
       <Diagram DiagramId="2c254001827d4755ae385d4583748394" Name="Diagram1">
         <EntityTypeShape EntityType="WPFModel.Role" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="WPFModel.User" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WPFModel.User" Width="1.5" PointX="6" PointY="1.125" IsExpanded="true" />
         <AssociationConnector Association="WPFModel.FK_User_IDRole_Role_ID" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
