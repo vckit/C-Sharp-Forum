@@ -50,7 +50,8 @@
                         Content="Войти"
                         Margin="0,15,0,0"
                         Width="150"
-                        materialDesign:ButtonAssist.CornerRadius="15"/>
+                        materialDesign:ButtonAssist.CornerRadius="15"
+                        Click="buttonLogin_Click"/>
             </StackPanel>
 
         </StackPanel>

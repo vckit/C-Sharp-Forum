@@ -1,5 +1,4 @@
-﻿
-using C_Sharp_Forum1.Views.Pages.Home;
+﻿using C_Sharp_Forum1.Views.Pages.Home;
 using System;
 using System.Collections.Generic;
 using System.Linq;

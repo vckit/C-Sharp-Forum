@@ -24,5 +24,17 @@ namespace C_Sharp_Forum2.Views.Pages
         {
             InitializeComponent();
         }
+        // 
+        private void buttonLogin_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, ex.Source + " выдал исключение", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
     }
 }
