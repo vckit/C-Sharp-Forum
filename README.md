@@ -2,8 +2,6 @@
 ***Привет Будущие программисты! Посетив мой курс по программированию и разработке Информационных Систем, вы сможете в кратчайшие сроки освоить нужные навыки и достойно сможете сдать не только Демонстрационный Экзамен, но и пойтеме фундаментальные основы программирования.***
 #
 ># Проекты
-
-**Все проекты будут [тут](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF)**
 + **[C-Sharp-Forum1](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF/C-Sharp-Forum1)**
 + **[C-Sharp-Forum2](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF/C-Sharp-Forum2)**
 + **[C-Sharp-Forum3](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF/C-Sharp-Forum3)**
