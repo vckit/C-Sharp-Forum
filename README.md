@@ -4,10 +4,9 @@
 ># Проекты
 
 **Все проекты будут [тут](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF)**
- + **Первый проект**
-***[C-Sharp-Forum1](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF/C-Sharp-Forum1)***
-***[C-Sharp-Forum2](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF/C-Sharp-Forum2)***
-***[C-Sharp-Forum3](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF/C-Sharp-Forum3)***
++ **[C-Sharp-Forum1](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF/C-Sharp-Forum1)***
++ **[C-Sharp-Forum2](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF/C-Sharp-Forum2)***
++ **[C-Sharp-Forum3](https://github.com/vckit/C-Sharp-Forum/tree/master/WPF/C-Sharp-Forum3)***
 
 
 ># Домашнее задание по SQL
