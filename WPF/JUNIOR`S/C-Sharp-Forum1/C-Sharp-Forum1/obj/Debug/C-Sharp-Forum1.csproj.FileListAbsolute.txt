@@ -1,0 +1,15 @@
+A:\Курсы\WPF\JUNIOR`S\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\C-Sharp-Forum1.csprojAssemblyReference.cache
+A:\Курсы\WPF\JUNIOR`S\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\App.g.cs
+A:\Курсы\WPF\JUNIOR`S\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\C-Sharp-Forum1_MarkupCompile.cache
+A:\Курсы\WPF\JUNIOR`S\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\C-Sharp-Forum1_MarkupCompile.lref
+A:\Курсы\WPF\JUNIOR`S\C-Sharp-Forum1\C-Sharp-Forum1\bin\Debug\C-Sharp-Forum1.exe.config
+A:\Курсы\WPF\JUNIOR`S\C-Sharp-Forum1\C-Sharp-Forum1\bin\Debug\C-Sharp-Forum1.exe
+A:\Курсы\WPF\JUNIOR`S\C-Sharp-Forum1\C-Sharp-Forum1\bin\Debug\C-Sharp-Forum1.pdb
+A:\Курсы\WPF\JUNIOR`S\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\MainWindow.g.cs
+A:\Курсы\WPF\JUNIOR`S\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\MainWindow.baml
+A:\Курсы\WPF\JUNIOR`S\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\C-Sharp-Forum1.g.resources
+A:\Курсы\WPF\JUNIOR`S\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\C_Sharp_Forum1.Properties.Resources.resources
+A:\Курсы\WPF\JUNIOR`S\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\C-Sharp-Forum1.csproj.GenerateResource.cache
+A:\Курсы\WPF\JUNIOR`S\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\C-Sharp-Forum1.csproj.CoreCompileInputs.cache
+A:\Курсы\WPF\JUNIOR`S\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\C-Sharp-Forum1.exe
+A:\Курсы\WPF\JUNIOR`S\C-Sharp-Forum1\C-Sharp-Forum1\obj\Debug\C-Sharp-Forum1.pdb
