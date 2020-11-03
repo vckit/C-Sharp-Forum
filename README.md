@@ -3,7 +3,7 @@
 Бойня неудачи не мой удел.
 Я буду упорствовать, пока не добьюсь успеха...**
 
-+ **[old`s](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s) по этой ссылке проекты первого выпуска курсов **
++ **[olds](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s) по этой ссылке проекты первого выпуска курсов**
 
 ># Курсы
 + **[EDM Диаграммы](https://github.com/vckit/C-Sharp-Forum/tree/master/EDM%20%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B)**
