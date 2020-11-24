@@ -4,10 +4,10 @@
 Я буду упорствовать, пока не добьюсь успеха...**
 
 ># Курсы
->> **[Проекты OLDS](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s)**
-+ **[EDM Диаграммы](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s/edm%20diagramm)**
-+ **[SQL Скрипт](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s/sql)**
-+ **[WPF](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s/wpf)**
+> **[Проекты OLDS](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s)**
+>+ **[EDM Диаграммы](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s/edm%20diagramm)**
+>+ **[SQL Скрипт](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s/sql)**
+>+ **[WPF](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s/wpf)**
 
 ># Проекты OLD`s
 + **[C-Sharp-Forum1](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s/wpf/OLD%60S/C-Sharp-Forum1)**
