@@ -1,0 +1,17 @@
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\bin\Debug\C-Sharp-Forum4.exe.config
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\bin\Debug\C-Sharp-Forum4.exe
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\bin\Debug\C-Sharp-Forum4.pdb
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\obj\Debug\C-Sharp-Forum4.csprojAssemblyReference.cache
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\obj\Debug\Views\Pages\MainPage\LoginPage.g.cs
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\obj\Debug\Views\Windows\MainWindow.g.cs
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\obj\Debug\App.g.cs
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\obj\Debug\C-Sharp-Forum4_MarkupCompile.cache
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\obj\Debug\C-Sharp-Forum4_MarkupCompile.lref
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\obj\Debug\Views\Pages\MainPage\LoginPage.baml
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\obj\Debug\Views\Windows\MainWindow.baml
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\obj\Debug\C-Sharp-Forum4.g.resources
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\obj\Debug\C_Sharp_Forum4.Properties.Resources.resources
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\obj\Debug\C-Sharp-Forum4.csproj.GenerateResource.cache
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\obj\Debug\C-Sharp-Forum4.csproj.CoreCompileInputs.cache
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\obj\Debug\C-Sharp-Forum4.exe
+A:\Курсы\WPF\C-Sharp-Forum4\C-Sharp-Forum4\obj\Debug\C-Sharp-Forum4.pdb
