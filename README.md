@@ -4,6 +4,10 @@
 Я буду упорствовать, пока не добьюсь успеха...***
 
 ># Курсы
+> **[Courses](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses)**
+
+
+
 > **[Проекты OLDS](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s)**
 >+ **[EDM Диаграммы](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s/edm%20diagramm)**
 >+ **[SQL Скрипт](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s/sql)**
