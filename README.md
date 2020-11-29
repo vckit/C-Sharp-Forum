@@ -4,7 +4,9 @@
 Я буду упорствовать, пока не добьюсь успеха...***
 
 ># Курсы
-> **[Courses](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses)**
+> **[Новые Курсы](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses)**
+>> **[Консольные приложения](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/ConsoleApp)**
+>> **[Приложения WPF]** (https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/WPF)**
 
 
 
