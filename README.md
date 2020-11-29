@@ -4,7 +4,24 @@
 Я буду упорствовать, пока не добьюсь успеха...***
 
 ># Курсы
-> **[Проекты OLDS](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s)**
+> **[Новые Курсы](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses)**
++ **[Консольные приложения](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/ConsoleApp)**
++ **[Приложения WPF](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/WPF)**
+
+># Домашка
+
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+
+> **[Курсы OLDS](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s)**
 >+ **[EDM Диаграммы](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s/edm%20diagramm)**
 >+ **[SQL Скрипт](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s/sql)**
 >+ **[WPF](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s)**
