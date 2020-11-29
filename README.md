@@ -8,7 +8,16 @@
 + **[Консольные приложения](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/ConsoleApp)**
 + **[Приложения WPF](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/WPF)**
 
-
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
 
 > **[Проекты OLDS](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s)**
 >+ **[EDM Диаграммы](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s/edm%20diagramm)**
