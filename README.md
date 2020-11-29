@@ -39,7 +39,3 @@
 + **[Первый проект WPF EDMX](https://github.com/vckit/C-Sharp-Forum/blob/master/old%60s/edm%20diagramm/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20WPF.vsdx)**
 + **[Второй проект WPF EDMX](https://github.com/vckit/C-Sharp-Forum/blob/master/old%60s/edm%20diagramm/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/%D0%92%D1%82%D0%BE%D1%80%D0%BE%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20WPF.vsdx)**
 ># Домашнее задание по WPF
-
-># Проекты JUNIOR`s
-+ **[C-Sharp-Forum0](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s/wpf/JUNIOR%60S/C-Sharp-Forum0)**
-+ **[C-Sharp-Forum1](https://github.com/vckit/C-Sharp-Forum/tree/master/old%60s/wpf/JUNIOR%60S/C-Sharp-Forum1)**
