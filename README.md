@@ -6,7 +6,7 @@
 ># Курсы
 > **[Новые Курсы](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses)**
 >> **[Консольные приложения](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/ConsoleApp)**
->> **[Приложения WPF]** (https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/WPF)**
+>> **[Приложения WPF](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/WPF)**
 
 
 
