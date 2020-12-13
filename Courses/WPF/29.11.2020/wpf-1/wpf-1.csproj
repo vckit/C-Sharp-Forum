@@ -64,7 +64,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Views\Pages\Admin\AdminAddData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\Admin\AdminEditData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\Admin\AdminViewData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Pages\Authorization.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\User\UserViewData.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -77,29 +93,47 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Context\dbContext.cs" />
-    <Compile Include="Model\ContextModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ContextModel.Context.tt</DependentUpon>
+    <Compile Include="Model\Computer.cs">
+      <DependentUpon>ContextModels.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\ContextModel.cs">
+    <Compile Include="Model\ContextModels.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ContextModel.tt</DependentUpon>
+      <DependentUpon>ContextModels.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\ContextModel.Designer.cs">
+    <Compile Include="Model\ContextModels.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ContextModel.edmx</DependentUpon>
+      <DependentUpon>ContextModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ContextModels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContextModels.edmx</DependentUpon>
     </Compile>
     <Compile Include="Model\Role.cs">
-      <DependentUpon>ContextModel.tt</DependentUpon>
+      <DependentUpon>ContextModels.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\SignIn.cs">
-      <DependentUpon>ContextModel.tt</DependentUpon>
+      <DependentUpon>ContextModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sysdiagram.cs">
+      <DependentUpon>ContextModels.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Admin\AdminAddData.xaml.cs">
+      <DependentUpon>AdminAddData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Admin\AdminEditData.xaml.cs">
+      <DependentUpon>AdminEditData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Admin\AdminViewData.xaml.cs">
+      <DependentUpon>AdminViewData.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Pages\Authorization.xaml.cs">
       <DependentUpon>Authorization.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\User\UserViewData.xaml.cs">
+      <DependentUpon>UserViewData.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Windows\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -124,12 +158,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EntityDeploy Include="Model\ContextModel.edmx">
+    <EntityDeploy Include="Model\ContextModels.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ContextModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>ContextModels.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Model\ContextModel.edmx.diagram">
-      <DependentUpon>ContextModel.edmx</DependentUpon>
+    <None Include="Model\ContextModels.edmx.diagram">
+      <DependentUpon>ContextModels.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -140,17 +174,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="Model\ContextModel.Context.tt">
+    <Content Include="Model\ContextModels.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ContextModel.Context.cs</LastGenOutput>
-      <DependentUpon>ContextModel.edmx</DependentUpon>
+      <DependentUpon>ContextModels.edmx</DependentUpon>
+      <LastGenOutput>ContextModels.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Model\ContextModel.tt">
+    <Content Include="Model\ContextModels.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ContextModel.edmx</DependentUpon>
-      <LastGenOutput>ContextModel.cs</LastGenOutput>
+      <DependentUpon>ContextModels.edmx</DependentUpon>
+      <LastGenOutput>ContextModels.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

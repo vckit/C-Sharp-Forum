@@ -1,0 +1,70 @@
+﻿<Page x:Class="wpf_1.Views.Pages.Admin.AdminViewData"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:wpf_1.Views.Pages.Admin"
+      mc:Ignorable="d" 
+      Loaded="Page_Loaded"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AdminViewData">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.5*"/>
+        </Grid.RowDefinitions>
+
+        <!--Это первое пространство Grid-->
+        <Grid Grid.Row="0">
+            <StackPanel HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Orientation="Horizontal">
+                <TextBlock Text="Поиск:" FontSize="14"/>
+                <TextBox Name="txbSearch"
+                         Width="200"
+                         Margin="10,0,0,0"/>
+            </StackPanel>
+        </Grid>
+        <!--Это второе пространство Grid-->
+        <Grid Grid.Row="1">
+            <DataGrid Margin="10" x:Name="dataView"
+                      AutoGenerateColumns="False"
+                      IsReadOnly="True"
+                      ColumnWidth="*">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Binding="{Binding ID}" Width="0.3*"/>
+                    <DataGridTextColumn Header="CPU" Binding="{Binding CPU}"/>
+                    <DataGridTextColumn Header="GPU" Binding="{Binding GPU}"/>
+                    <DataGridTextColumn Header="RAM" Binding="{Binding RAM}"/>
+                    <DataGridTextColumn Header="MotherBoard" Binding="{Binding MotherBoard}"/>
+                    <DataGridTextColumn Header="HDD" Binding="{Binding HDD}"/>
+                    <DataGridTextColumn Header="Keybourd" Binding="{Binding Keybourd}"/>
+                    <DataGridTextColumn Header="Mouse" Binding="{Binding Mouse}"/>
+                    <DataGridTextColumn Header="Headphones" Binding="{Binding Headphones}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        <!--Это третье пространство Grid-->
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <Button x:Name="btnAdd"
+                        Content="Добавить"
+                        Width="200"
+                        Click="btnAdd_Click"/>
+                <Button x:Name="btnEdit"
+                        Content="Редактировать"
+                        Width="200"
+                        Margin="10,0,10,0"
+                        Click="btnEdit_Click"/>
+                <Button x:Name="btnRemove"
+                        Content="Удалить"
+                        Width="200"
+                        Click="btnRemove_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

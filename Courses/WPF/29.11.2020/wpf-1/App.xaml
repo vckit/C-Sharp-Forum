@@ -4,6 +4,16 @@
              xmlns:local="clr-namespace:wpf_1"
              StartupUri="Views/Windows/MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="TextBox" x:Key="StyleForAddTextBox">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Margin" Value="0 5 0 0"/>
+        </Style>
+
+        <Style TargetType="TextBlock" x:Key="StyleForAddTextBlock">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Width" Value="90"/>
+            <Setter Property="Margin" Value="0,5,0,0"/>
+        </Style>
     </Application.Resources>
 </Application>

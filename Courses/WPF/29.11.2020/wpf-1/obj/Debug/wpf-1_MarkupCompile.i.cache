@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\thevckit\Documents\documents\course\C-Sharp-Forum\Courses\WPF\29.11.2020\wpf-1\App.xaml
-21899507631
-2-1177523661
-131802591446
+6-1682294822
+2-1669192194
+191149374003
 181157894059
-Views\Pages\Authorization.xaml;Views\Windows\MainWindow.xaml;
+Views\Pages\Admin\AdminAddData.xaml;Views\Pages\Admin\AdminEditData.xaml;Views\Pages\Admin\AdminViewData.xaml;Views\Pages\Authorization.xaml;Views\Pages\User\UserViewData.xaml;Views\Windows\MainWindow.xaml;
 
-False
+True
 

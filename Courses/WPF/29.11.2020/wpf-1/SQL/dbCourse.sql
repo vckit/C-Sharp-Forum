@@ -34,3 +34,36 @@ INSERT [SignIn] ([Username], [Password], [IDRole]) VALUES ('Helena', '9855', 'U'
 
 
 SELECT [Username], [Password], [IDRole] FROM [SignIn]
+
+
+CREATE TABLE [Computer](
+	
+	[ID]			INT IDENTITY,
+	[CPU]			NVARCHAR(MAX)	NOT NULL,
+	[GPU]			NVARCHAR(MAX)	NOT NULL,
+	[RAM]			NVARCHAR(MAX)	NOT NULL,
+	[MotherBoard]	NVARCHAR(MAX)	NOT NULL,
+	[HDD]			NVARCHAR(MAX)	NOT NULL,
+	[Keybourd]		NVARCHAR(MAX)	NOT NULL,
+	[Mouse]			NVARCHAR(MAX)	NOT NULL,
+	[Headphones]	NVARCHAR(MAX) NOT NULL
+	CONSTRAINT PK_Computer_ID	PRIMARY KEY ([ID])
+)
+GO
+
+INSERT [Computer] ([CPU], [GPU], [RAM], [MotherBoard], [HDD], [Keybourd], [Mouse], [Headphones]) VALUES
+('Intel i7', 'RTX 2070 Super', '32 Gb', 'Gigabyte B450M GAMING', 'WD Blue [WD10EZEX] 1TB', 'Bloody 620G' ,'Bloody 420G', 'Bloody G456')
+
+INSERT [Computer] ([CPU], [GPU], [RAM], [MotherBoard], [HDD], [Keybourd], [Mouse]) VALUES
+('Intel i7', 'RTX 2070 Super', '32 Gb', 'Gigabyte B450M GAMING', 'WD Blue [WD10EZEX] 1TB', 'Bloody 620G' ,'Bloody 420G')
+
+SELECT * FROM [Computer]
+
+ALTER TABLE [Computer]
+ADD [Headphones] NVARCHAR(MAX) NOT NULL
+
+DROP TABLE [Computer]
+
+ALTER TABLE [Computer]
+ALTER COLUMN [Headphones] NVARCHAR(50) NULL
+
