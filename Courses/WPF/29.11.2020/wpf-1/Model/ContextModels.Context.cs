@@ -28,6 +28,5 @@ namespace wpf_1.Model
         public virtual DbSet<Computer> Computers { get; set; }
         public virtual DbSet<Role> Roles { get; set; }
         public virtual DbSet<SignIn> SignIns { get; set; }
-        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
     }
 }

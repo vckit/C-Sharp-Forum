@@ -24,7 +24,8 @@
                 <TextBlock Text="Поиск:" FontSize="14"/>
                 <TextBox Name="txbSearch"
                          Width="200"
-                         Margin="10,0,0,0"/>
+                         Margin="10,0,0,0"
+                         TextChanged="txbSearch_TextChanged"/>
             </StackPanel>
         </Grid>
         <!--Это второе пространство Grid-->

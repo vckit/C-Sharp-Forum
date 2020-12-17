@@ -117,9 +117,6 @@
     <Compile Include="Model\SignIn.cs">
       <DependentUpon>ContextModels.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\sysdiagram.cs">
-      <DependentUpon>ContextModels.tt</DependentUpon>
-    </Compile>
     <Compile Include="Views\Pages\Admin\AdminAddData.xaml.cs">
       <DependentUpon>AdminAddData.xaml</DependentUpon>
     </Compile>
@@ -175,6 +172,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
     <Content Include="Model\ContextModels.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>ContextModels.edmx</DependentUpon>
@@ -185,9 +186,6 @@
       <DependentUpon>ContextModels.edmx</DependentUpon>
       <LastGenOutput>ContextModels.cs</LastGenOutput>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

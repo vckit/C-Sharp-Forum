@@ -52,10 +52,13 @@ CREATE TABLE [Computer](
 GO
 
 INSERT [Computer] ([CPU], [GPU], [RAM], [MotherBoard], [HDD], [Keybourd], [Mouse], [Headphones]) VALUES
-('Intel i7', 'RTX 2070 Super', '32 Gb', 'Gigabyte B450M GAMING', 'WD Blue [WD10EZEX] 1TB', 'Bloody 620G' ,'Bloody 420G', 'Bloody G456')
+('Intel i5', 'RTX 2070 Super', '32 Gb', 'Asus B450M GAMING', 'WD Blue [WD10EZEX] 1TB', 'Bloody 620G' ,'Bloody 420G', 'Bloody G456')
 
-INSERT [Computer] ([CPU], [GPU], [RAM], [MotherBoard], [HDD], [Keybourd], [Mouse]) VALUES
-('Intel i7', 'RTX 2070 Super', '32 Gb', 'Gigabyte B450M GAMING', 'WD Blue [WD10EZEX] 1TB', 'Bloody 620G' ,'Bloody 420G')
+INSERT [Computer] ([CPU], [GPU], [RAM], [MotherBoard], [HDD], [Keybourd], [Mouse], [Headphones]) VALUES
+('Intel i9', 'RTX 2070 Super', '32 Gb', 'Asus B450M GAMING', 'WD Blue [WD10EZEX] 1TB', 'Bloody 620G' ,'Bloody 420G', 'Bloody G456')
+
+INSERT [Computer] ([CPU], [GPU], [RAM], [MotherBoard], [HDD], [Keybourd], [Mouse], [Headphones]) VALUES
+('Intel i7', 'RTX 2070 Super', '32 Gb', 'Gigabyte B450M GAMING', 'WD Blue [WD10EZEX] 1TB', 'Bloody 620G' ,'Bloody 420G', 'Bloody G456')
 
 SELECT * FROM [Computer]
 

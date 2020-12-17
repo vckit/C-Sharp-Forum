@@ -1,4 +1,4 @@
-﻿// Создание кода T4 для модели "C:\Users\thevckit\Documents\documents\course\C-Sharp-Forum\Courses\WPF\29.11.2020\wpf-1\Model\ContextModels.edmx" включено. 
+﻿// Создание кода T4 для модели "H:\Мои проекты\C-Sharp-Forum\Courses\WPF\29.11.2020\wpf-1\Model\ContextModels.edmx" включено. 
 // Чтобы включить формирование кода прежних версий, измените значение свойства "Стратегия создания кода" конструктора
 // на "Legacy ObjectContext". Это свойство доступно в окне "Свойства", если модель
 // открыта в конструкторе.

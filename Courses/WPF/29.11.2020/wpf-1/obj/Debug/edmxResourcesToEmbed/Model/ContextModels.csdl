@@ -32,16 +32,6 @@
     <Property Name="IDRole" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
     <NavigationProperty Name="Role" Relationship="Self.FK_SignIn_IDRole_Role_RoleID" FromRole="SignIn" ToRole="Role" />
   </EntityType>
-  <EntityType Name="sysdiagram">
-    <Key>
-      <PropertyRef Name="diagram_id" />
-    </Key>
-    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="principal_id" Type="Int32" Nullable="false" />
-    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="version" Type="Int32" />
-    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
-  </EntityType>
   <Association Name="FK_SignIn_IDRole_Role_RoleID">
     <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
     <End Role="SignIn" Type="Self.SignIn" Multiplicity="*" />
@@ -58,7 +48,6 @@
     <EntitySet Name="Computers" EntityType="Self.Computer" />
     <EntitySet Name="Roles" EntityType="Self.Role" />
     <EntitySet Name="SignIns" EntityType="Self.SignIn" />
-    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
     <AssociationSet Name="FK_SignIn_IDRole_Role_RoleID" Association="Self.FK_SignIn_IDRole_Role_RoleID">
       <End Role="Role" EntitySet="Roles" />
       <End Role="SignIn" EntitySet="SignIns" />

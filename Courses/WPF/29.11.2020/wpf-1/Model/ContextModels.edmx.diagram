@@ -4,11 +4,10 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="bfcd7315b77c45adb9db90e839d4a783" Name="Diagram1">
+      <Diagram DiagramId="7e8a2c83fd39477db5886218162c5f42" Name="Diagram1">
         <EntityTypeShape EntityType="dbCourseModel.Computer" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="dbCourseModel.Role" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
         <EntityTypeShape EntityType="dbCourseModel.SignIn" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="dbCourseModel.sysdiagram" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
         <AssociationConnector Association="dbCourseModel.FK_SignIn_IDRole_Role_RoleID" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>

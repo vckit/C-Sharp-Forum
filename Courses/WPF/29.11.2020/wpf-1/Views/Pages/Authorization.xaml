@@ -39,8 +39,10 @@
                         Margin="0,0,10,0"
                         Content="Cancel"
                         x:Name="btnCancel"
+                        IsCancel="True"
                         Click="btnCancel_Click"/>
                 <Button Width="120"
+                        IsDefault="True"
                         Content="LogIn"
                         x:Name="btnLogIn"
                         Click="btnLogIn_Click"/>

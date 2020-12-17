@@ -14,47 +14,42 @@
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="CPU: "
                            Style="{StaticResource StyleForAddTextBlock}"/>
-                <TextBox Style="{StaticResource StyleForAddTextBox}"/>
+                <TextBox x:Name="txb_CPU" Style="{StaticResource StyleForAddTextBox}"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="GPU: "
                            Style="{StaticResource StyleForAddTextBlock}"/>
-                <TextBox Style="{StaticResource StyleForAddTextBox}"/>
+                <TextBox x:Name="txb_GPU" Style="{StaticResource StyleForAddTextBox}"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="RAM: "
                            Style="{StaticResource StyleForAddTextBlock}"/>
-                <TextBox Style="{StaticResource StyleForAddTextBox}"/>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <TextBlock Text="CPU: "
-                           Style="{StaticResource StyleForAddTextBlock}"/>
-                <TextBox Style="{StaticResource StyleForAddTextBox}"/>
+                <TextBox x:Name="txb_RAM" Style="{StaticResource StyleForAddTextBox}"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="MotherBoard: "
                            Style="{StaticResource StyleForAddTextBlock}"/>
-                <TextBox Style="{StaticResource StyleForAddTextBox}"/>
+                <TextBox x:Name="txb_Motherboard" Style="{StaticResource StyleForAddTextBox}"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="HDD: "
                            Style="{StaticResource StyleForAddTextBlock}"/>
-                <TextBox Style="{StaticResource StyleForAddTextBox}"/>
+                <TextBox x:Name="txb_HDD" Style="{StaticResource StyleForAddTextBox}"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="Keybourd: "
                            Style="{StaticResource StyleForAddTextBlock}"/>
-                <TextBox Style="{StaticResource StyleForAddTextBox}"/>
+                <TextBox x:Name="txb_Keyboard" Style="{StaticResource StyleForAddTextBox}"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="Mouse: "
                            Style="{StaticResource StyleForAddTextBlock}"/>
-                <TextBox Style="{StaticResource StyleForAddTextBox}"/>
+                <TextBox x:Name="txb_Mouse" Style="{StaticResource StyleForAddTextBox}"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="Headphones: "
                            Style="{StaticResource StyleForAddTextBlock}"/>
-                <TextBox Style="{StaticResource StyleForAddTextBox}"/>
+                <TextBox x:Name="txb_Headphones" Style="{StaticResource StyleForAddTextBox}"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal"
                         HorizontalAlignment="Center"
@@ -67,7 +62,8 @@
                 <Button x:Name="btnSave"
                         Content="Сохранить"
                         Width="145"
-                        Margin="5,0,0,0"/>
+                        Margin="5,0,0,0"
+                        Click="btnSave_Click"/>
             </StackPanel>
         </StackPanel>
     </Grid>
