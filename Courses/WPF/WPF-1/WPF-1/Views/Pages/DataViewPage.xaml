@@ -1,0 +1,87 @@
+﻿<Page x:Class="WPF_1.Views.Pages.DataViewPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPF_1.Views.Pages"
+      mc:Ignorable="d" FontSize="18"
+      Loaded="Page_Loaded"
+      d:DesignHeight="600" d:DesignWidth="1080"
+      Title="DataViewPage">
+    
+    <Page.Resources>
+        <!--Стиль Кнопки-->
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="Height" Value="45"/>
+            <Setter Property="Foreground" Value="DimGray"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="DimGray"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+    </Page.Resources>
+    <Grid>
+        <!--Деление на 3 строки-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.5*"/>
+        </Grid.RowDefinitions>
+        
+        <!--Верхний Grid-->
+        <Grid Grid.Row="0">
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <TextBlock Text="Поиск: "/>
+                <TextBox x:Name="txbSearch"
+                         Width="250"
+                         Margin="10,0,0,0"
+                         TextChanged="txbSearch_TextChanged"/>
+            </StackPanel>
+        </Grid>
+        
+        <!--Центральный Grid-->
+        <Grid Grid.Row="1">
+            <DataGrid AutoGenerateColumns="False"
+                      Margin="10"
+                      Foreground="DimGray"
+                      FontWeight="Bold"
+                      IsReadOnly="True"
+                      x:Name="dbDataView"
+                      ColumnWidth="*">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Binding="{Binding ID}" Width="0.3*"/>
+                    <DataGridTextColumn Header="Наименование" Binding="{Binding Title}"/>
+                    <DataGridTextColumn Header="Модель" Binding="{Binding Model}"/>
+                    <DataGridTextColumn Header="Год выпуска" Binding="{Binding Yaer, StringFormat={}{0:dd/MM/yyyy}}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <!--Этот контейнер даст чёткие параметры внутренним элементам--> 
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <!--Кнопка Добавить-->
+                <Button x:Name="btnCreate"
+                        Content="Создать"
+                        Click="btnCreate_Click"/>
+                <!--Кнопка Редактировать-->
+                <Button x:Name="btnEdit"
+                        Content="Редактировать"
+                        Margin="10,0"
+                        Click="btnEdit_Click"/>
+                <!--Кнопка Удалить-->
+                <Button x:Name="btnRemove"
+                        Content="Удалить"
+                        Click="btnRemove_Click"/>
+                <Button x:Name="btnGetInfo"
+                        Content="Подробнее"
+                        Margin="10,0,0,0"
+                        Click="btnGetInfo_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

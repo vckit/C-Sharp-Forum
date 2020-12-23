@@ -1,0 +1,126 @@
+﻿<Page x:Class="WPF_1.Views.Pages.AddDataInDB"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPF_1.Views.Pages"
+      mc:Ignorable="d" 
+      FontSize="18"
+      d:DesignHeight="600" d:DesignWidth="1080"
+      Title="AddDataInDB">
+    <Page.Resources>
+        <!--Стиль Кнопки-->
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="Height" Value="45"/>
+            <Setter Property="Foreground" Value="DimGray"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="DimGray"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        <!--Стиль для TextBox-->
+        <Style TargetType="TextBox">
+            <Setter Property="Width" Value="250"/>
+        </Style>
+        <!--Стиль для TextBlock-->
+        <Style TargetType="TextBlock">
+            <Setter Property="Width" Value="150"/>
+        </Style>
+        <!--Стиль для StackPanek-->
+        <Style TargetType="StackPanel">
+            <Setter Property="Margin" Value="0,0,0,3"/>
+        </Style>
+    </Page.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.3*"/>
+        </Grid.RowDefinitions>
+
+        <!--Это первая строка, первого столбца-->
+        <Grid Grid.Row="0"
+              Grid.Column="0">
+            <StackPanel HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <Button Content="Назад"
+                        x:Name="btnBack"
+                        Click="btnBack_Click"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="1"
+              Grid.Column="0">
+            <StackPanel HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <Image x:Name="imgPic"
+                       Width="250"
+                       Height="200"/>
+                <Button x:Name="btnLoad"
+                        Content="Загузить"
+                        Margin="0,10,0,0"
+                        Click="btnLoad_Click"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="1"
+              Grid.Column="1">
+            <StackPanel HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Наименование: "
+                               Margin="0,0,10,0"/>
+                    <TextBox x:Name="txbTitle"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Модель: "
+                               Margin="0,0,10,0"/>
+                    <TextBox x:Name="txbModel"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"
+                            VerticalAlignment="Center">
+                    <TextBlock Text="Год выпуска: "
+                               Margin="0,0,10,0"
+                               Padding="0,10"/>
+                    <DatePicker x:Name="dptDate"
+                                Width="250"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="VIN: "
+                               Margin="0,0,10,0"/>
+                    <TextBox x:Name="txbVIn"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Кол-о дверей: "
+                               Margin="0,0,10,0"/>
+                    <TextBox x:Name="txbCountDoors"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Тип: "
+                               Margin="0,0,10,0"/>
+                    <ComboBox x:Name="cmbType"
+                              Width="250"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Страна: "
+                               Margin="0,0,10,0"/>
+                    <ComboBox x:Name="cmbCoutry"
+                              Width="250"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="2"
+              Grid.Column="1">
+            <StackPanel>
+                <Button x:Name="btnSave"
+                        Content="Сохранить"
+                        Click="btnSave_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
