@@ -1,17 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
+using WPF_1.Classes;
 using WPF_1.Context;
 using WPF_1.Model;
 
@@ -35,7 +27,7 @@ namespace WPF_1.Views.Pages
         private void btnGetInfo_Click(object sender, RoutedEventArgs e)
         {
             Car selectedItem = (Car)dbDataView.SelectedItem;
-            if(selectedItem != null)
+            if (selectedItem != null)
             {
                 NavigationService.Navigate(new DBGetInfoViewPage(selectedItem));
             }
@@ -61,7 +53,7 @@ namespace WPF_1.Views.Pages
                 Car selectedItem = (Car)dbDataView.SelectedItem;
                 if (selectedItem != null)
                 {
-                    if(MessageBox.Show("Вы действительно хотите удалить данную запись?", "Удалить?", MessageBoxButton.OKCancel, MessageBoxImage.Question)
+                    if (MessageBox.Show("Вы действительно хотите удалить данную запись?", "Удалить?", MessageBoxButton.OKCancel, MessageBoxImage.Question)
                         == MessageBoxResult.OK)
                     {
                         Car removeCar = dbContext.db.Cars.FirstOrDefault(item => item.ID == selectedItem.ID);
@@ -83,5 +75,6 @@ namespace WPF_1.Views.Pages
             dbDataView.ItemsSource = dbContext.db.Cars.Where(keyword => keyword.Title.Contains(txbSearch.Text) ||
             keyword.Model.Contains(txbSearch.Text)).ToList();
         }
+
     }
 }

@@ -5,3 +5,10 @@ C:\Users\thevckit\Documents\prog\my proj\Courses\Courses\ConsoleApp\11.27.2020\C
 C:\Users\thevckit\Documents\prog\my proj\Courses\Courses\ConsoleApp\11.27.2020\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
 C:\Users\thevckit\Documents\prog\my proj\Courses\Courses\ConsoleApp\11.27.2020\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\thevckit\Documents\prog\my proj\Courses\Courses\ConsoleApp\11.27.2020\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\thevckit\Documents\documents\course\C-Sharp-Forum\Courses\ConsoleApp\11.27.2020\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\thevckit\Documents\documents\course\C-Sharp-Forum\Courses\ConsoleApp\11.27.2020\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\thevckit\Documents\documents\course\C-Sharp-Forum\Courses\ConsoleApp\11.27.2020\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\thevckit\Documents\documents\course\C-Sharp-Forum\Courses\ConsoleApp\11.27.2020\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\thevckit\Documents\documents\course\C-Sharp-Forum\Courses\ConsoleApp\11.27.2020\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\thevckit\Documents\documents\course\C-Sharp-Forum\Courses\ConsoleApp\11.27.2020\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\thevckit\Documents\documents\course\C-Sharp-Forum\Courses\ConsoleApp\11.27.2020\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

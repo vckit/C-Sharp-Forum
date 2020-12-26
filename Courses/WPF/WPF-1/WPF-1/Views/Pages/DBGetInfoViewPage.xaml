@@ -29,11 +29,27 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <TextBlock Text="Выберите тип: "/>
+                <ComboBox x:Name="cmbSelectedType"
+                          Width="200"
+                          Margin="10,0,0,0"
+                          SelectionChanged="cmbSelectedType_SelectionChanged"/>
+                <TextBlock Text="Выберите страну: "
+                           Margin="20,0,0,0"/>
+                <ComboBox x:Name="cmbSelectedCountry"
+                          Width="200"
+                          Margin="10,0,0,0"
+                          SelectionChanged="cmbSelectedCountry_SelectionChanged"/>
+            </StackPanel>
             <StackPanel HorizontalAlignment="Left"
                         VerticalAlignment="Center"
                         Margin="10">
                 <Button x:Name="btnBack"
                         Content="Назад"
+                        Width="150"
                         Click="btnBack_Click"/>
             </StackPanel>
         </Grid>
