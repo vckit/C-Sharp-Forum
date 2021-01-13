@@ -7,6 +7,7 @@
 > **[Исходники](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses)**
 + **[Консольные приложения](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/ConsoleApp)**
 + **[Приложения WPF](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/WPF)**
++ **[Отобразить дату в разных форматах](https://github.com/vckit/C-Sharp-Forum/blob/master/DateSort/DateSort/Program.cs)**
 
 #
 
