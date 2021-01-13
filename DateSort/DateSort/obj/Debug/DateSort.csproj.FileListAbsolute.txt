@@ -1,0 +1,7 @@
+A:\Programming\C#\Console Application\DateSort\DateSort\bin\Debug\DateSort.exe.config
+A:\Programming\C#\Console Application\DateSort\DateSort\bin\Debug\DateSort.exe
+A:\Programming\C#\Console Application\DateSort\DateSort\bin\Debug\DateSort.pdb
+A:\Programming\C#\Console Application\DateSort\DateSort\obj\Debug\DateSort.csprojAssemblyReference.cache
+A:\Programming\C#\Console Application\DateSort\DateSort\obj\Debug\DateSort.csproj.CoreCompileInputs.cache
+A:\Programming\C#\Console Application\DateSort\DateSort\obj\Debug\DateSort.exe
+A:\Programming\C#\Console Application\DateSort\DateSort\obj\Debug\DateSort.pdb
