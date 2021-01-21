@@ -3,6 +3,11 @@
 Бойня неудачи не мой удел.
 Я буду упорствовать, пока не добьюсь успеха...***
 
+# Готовые проекты
+**В этих проектах реализованы все необходимые вам операции ADO.NET**
+**[WPF-1](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/WPF/WPF-1/WPF-1)**
+
+
 ># Новые Курсы
 > **[Исходники](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses)**
 + **[Консольные приложения](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/ConsoleApp)**
