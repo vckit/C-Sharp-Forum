@@ -30,7 +30,8 @@
 #
 
 > Новые Курсы
-> **[Исходники](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses)**
+
++ **[Исходники](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses)**
 + **[Консольные приложения](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/ConsoleApp)**
 + **[Приложения WPF](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/WPF)**
 + **[Отобразить дату в разных форматах](https://github.com/vckit/C-Sharp-Forum/blob/master/DateSort/DateSort/Program.cs)**
@@ -38,7 +39,8 @@
 #
 
 > Старые Курсы
-> **[Исходники](https://github.com/vckit/C-Sharp-Forum/tree/master/Olds)**
->+ **[EDM Диаграммы](https://github.com/vckit/C-Sharp-Forum/tree/master/Olds/EDM%20Diagramm)**
->+ **[dbSQL](https://github.com/vckit/C-Sharp-Forum/tree/master/Olds/SQL)**
->+ **[WPF](https://github.com/vckit/C-Sharp-Forum/tree/master/Olds/WPF)**
+
++ **[Исходники](https://github.com/vckit/C-Sharp-Forum/tree/master/Olds)**
++ **[EDM Диаграммы](https://github.com/vckit/C-Sharp-Forum/tree/master/Olds/EDM%20Diagramm)**
++ **[dbSQL](https://github.com/vckit/C-Sharp-Forum/tree/master/Olds/SQL)**
++ **[WPF](https://github.com/vckit/C-Sharp-Forum/tree/master/Olds/WPF)**
