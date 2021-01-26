@@ -4,11 +4,15 @@
 Бойня неудачи не мой удел.
 Я буду упорствовать, пока не добьюсь успеха...***
 
+#
+
 # Зона самостоятельных работ
 
 > Домашка
 
 + Поработайте с ресурсами и проведите импорт данных из Excel в MS SQL
+
+#
 
 # Зона совместых работ
 
@@ -20,6 +24,7 @@
 + **[Работа с изображением](https://github.com/vckit/C-Sharp-Forum/tree/master/Images/Images)**
 **Видео материал в [Google Disk](https://drive.google.com/drive/folders/1xA61s8E5LGttc2gJT2xzSvb-zDsz0NrV)**
 
+#
 
 > Документация
 
