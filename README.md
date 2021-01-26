@@ -21,7 +21,8 @@
 **Видео материал в [Google Disk](https://drive.google.com/drive/folders/1xA61s8E5LGttc2gJT2xzSvb-zDsz0NrV)**
 
 
-**Документация**
+> Документация
+
 + **Задания Демонстрационного экзамена за август [здесь](https://github.com/vckit/C-Sharp-Forum/tree/master/Tasks%20Competation/Demo%20Teacher/09_1.9_9)**
 
 + **Задания Финала Национального чемпионата [здесь](https://github.com/vckit/C-Sharp-Forum/tree/master/Tasks%20Competation/WordlSkills%20NCH%202017)**
