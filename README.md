@@ -3,6 +3,9 @@
 Бойня неудачи не мой удел.
 Я буду упорствовать, пока не добьюсь успеха...***
 
+># Домашка
++ Поработайте с ресурсами и проведите импорт данных из Excel в MS SQL
+
 # Готовые проекты
 **В этих проектах реализованы все необходимые вам операции ADO.NET**
 
@@ -28,6 +31,3 @@
 >+ **[EDM Диаграммы](https://github.com/vckit/C-Sharp-Forum/tree/master/Olds/EDM%20Diagramm)**
 >+ **[dbSQL](https://github.com/vckit/C-Sharp-Forum/tree/master/Olds/SQL)**
 >+ **[WPF](https://github.com/vckit/C-Sharp-Forum/tree/master/Olds/WPF)**
-
-># Домашка
-+ Поработайте с ресурсами и проведите импорт данных из Excel в MS SQL
