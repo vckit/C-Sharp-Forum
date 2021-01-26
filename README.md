@@ -23,13 +23,13 @@
 
 > Документация
 
-+ **Задания Демонстрационного экзамена за август [здесь](https://github.com/vckit/C-Sharp-Forum/tree/master/Tasks%20Competation/Demo%20Teacher/09_1.9_9)**
++ Задания Демонстрационного экзамена за август **[здесь](https://github.com/vckit/C-Sharp-Forum/tree/master/Tasks%20Competation/Demo%20Teacher/09_1.9_9)**
 
-+ **Задания Финала Национального чемпионата [здесь](https://github.com/vckit/C-Sharp-Forum/tree/master/Tasks%20Competation/WordlSkills%20NCH%202017)**
++ Задания Финала Национального чемпионата **[здесь](https://github.com/vckit/C-Sharp-Forum/tree/master/Tasks%20Competation/WordlSkills%20NCH%202017)**
 
 #
 
-># Новые Курсы
+> Новые Курсы
 > **[Исходники](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses)**
 + **[Консольные приложения](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/ConsoleApp)**
 + **[Приложения WPF](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/WPF)**
@@ -37,7 +37,7 @@
 
 #
 
-># Старые Курсы
+> Старые Курсы
 > **[Исходники](https://github.com/vckit/C-Sharp-Forum/tree/master/Olds)**
 >+ **[EDM Диаграммы](https://github.com/vckit/C-Sharp-Forum/tree/master/Olds/EDM%20Diagramm)**
 >+ **[dbSQL](https://github.com/vckit/C-Sharp-Forum/tree/master/Olds/SQL)**
