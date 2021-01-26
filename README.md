@@ -43,6 +43,8 @@
 
 #
 
+# Курсы
+
 > Новые Курсы
 
 + **[Исходники](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses)**
