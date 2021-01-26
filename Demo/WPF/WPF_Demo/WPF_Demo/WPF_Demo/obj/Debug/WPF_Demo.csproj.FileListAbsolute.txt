@@ -1,0 +1,54 @@
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\bin\Debug\WPF_Demo.exe.config
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\bin\Debug\WPF_Demo.exe
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\bin\Debug\WPF_Demo.pdb
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\bin\Debug\EntityFramework.dll
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\bin\Debug\EntityFramework.xml
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo.csprojAssemblyReference.cache
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\Views\Pages\AddDataPage.g.cs
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\Views\Pages\DataViewPage.g.cs
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\Views\Windows\MainWindow.g.cs
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\App.g.cs
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo_Content.g.cs
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo_MarkupCompile.cache
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo_MarkupCompile.lref
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\App.baml
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\Views\Pages\AddDataPage.baml
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\Views\Pages\DataViewPage.baml
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\Views\Windows\MainWindow.baml
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo.g.resources
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo.Properties.Resources.resources
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo.csproj.GenerateResource.cache
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo.csproj.CoreCompileInputs.cache
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo.csproj.CopyComplete
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo.exe
+C:\Users\thevckit\Documents\documents\c#\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo.pdb
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\bin\Debug\WPF_Demo.exe.config
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\bin\Debug\WPF_Demo.exe
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\bin\Debug\WPF_Demo.pdb
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\bin\Debug\EntityFramework.dll
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\bin\Debug\EntityFramework.SqlServer.dll
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\bin\Debug\EntityFramework.xml
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\bin\Debug\EntityFramework.SqlServer.xml
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\bin\Debug\ru\EntityFramework.resources.dll
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo.csprojAssemblyReference.cache
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\Views\Pages\AddDataPage.g.cs
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\Views\Pages\DataViewPage.g.cs
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\Views\Windows\MainWindow.g.cs
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\App.g.cs
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo_Content.g.cs
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo_MarkupCompile.cache
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo_MarkupCompile.lref
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\App.baml
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\Views\Pages\AddDataPage.baml
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\Views\Pages\DataViewPage.baml
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\Views\Windows\MainWindow.baml
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo.g.resources
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo.Properties.Resources.resources
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo.csproj.GenerateResource.cache
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo.csproj.CoreCompileInputs.cache
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo.csproj.CopyComplete
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo.exe
+A:\Git repositories clone\WPF_Demo\WPF_Demo\WPF_Demo\obj\Debug\WPF_Demo.pdb

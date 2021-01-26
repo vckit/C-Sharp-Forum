@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbDemoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="FamilyStatu">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="PersonalDatas" Relationship="Self.FK_PersonalData_FamilyStatus" FromRole="FamilyStatus" ToRole="PersonalData" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FristName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DateOfBirth" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="PersonalDatas" Relationship="Self.FK_PersonalData_Person" FromRole="Person" ToRole="PersonalData" />
+  </EntityType>
+  <EntityType Name="PersonalData">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDFamilyStatus" Type="Int32" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="15" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IDPerson" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="FamilyStatu" Relationship="Self.FK_PersonalData_FamilyStatus" FromRole="PersonalData" ToRole="FamilyStatus" />
+    <NavigationProperty Name="Person" Relationship="Self.FK_PersonalData_Person" FromRole="PersonalData" ToRole="Person" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_PersonalData_FamilyStatus">
+    <End Role="FamilyStatus" Type="Self.FamilyStatu" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="PersonalData" Type="Self.PersonalData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FamilyStatus">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PersonalData">
+        <PropertyRef Name="IDFamilyStatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PersonalData_Person">
+    <End Role="Person" Type="Self.Person" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="PersonalData" Type="Self.PersonalData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PersonalData">
+        <PropertyRef Name="IDPerson" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="dbDemoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="FamilyStatus" EntityType="Self.FamilyStatu" />
+    <EntitySet Name="People" EntityType="Self.Person" />
+    <EntitySet Name="PersonalDatas" EntityType="Self.PersonalData" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK_PersonalData_FamilyStatus" Association="Self.FK_PersonalData_FamilyStatus">
+      <End Role="FamilyStatus" EntitySet="FamilyStatus" />
+      <End Role="PersonalData" EntitySet="PersonalDatas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PersonalData_Person" Association="Self.FK_PersonalData_Person">
+      <End Role="Person" EntitySet="People" />
+      <End Role="PersonalData" EntitySet="PersonalDatas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

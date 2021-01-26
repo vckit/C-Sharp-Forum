@@ -1,0 +1,52 @@
+H:\Мои проекты\c#\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+H:\Мои проекты\c#\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+H:\Мои проекты\c#\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+H:\Мои проекты\c#\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+H:\Мои проекты\c#\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+H:\Мои проекты\c#\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+H:\Мои проекты\c#\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+H:\Мои проекты\c#\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+H:\Мои проекты\c#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+H:\Мои проекты\c#\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+H:\Мои проекты\c#\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+H:\Мои проекты\c#\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+H:\Мои проекты\c#\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+H:\Мои проекты\c#\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+H:\Мои проекты\c#\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+H:\Мои проекты\c#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+H:\Мои проекты\c#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+H:\Мои проекты\c#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+H:\Мои проекты\c#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+H:\Мои проекты\c#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+H:\Мои проекты\c#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+H:\Мои проекты\c#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\Views\Pages\addPage.g.cs
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\Views\Pages\mainPage.g.cs
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\Views\Windows\MainWindow.g.cs
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\Views\Pages\addPage.baml
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\Views\Pages\mainPage.baml
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\Views\Windows\MainWindow.baml
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\Views\Pages\dataViewPage.g.cs
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\Views\Pages\dataViewPage.baml
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\Views\Pages\editDataPage.g.cs
+A:\Git repositories clone\WPF_Demo\WpfApp1\WpfApp1\obj\Debug\Views\Pages\editDataPage.baml
