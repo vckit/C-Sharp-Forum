@@ -30,9 +30,7 @@
 В этих проектах реализованы все необходимые вам операции ADO.NET
 
 + **[WPF-1](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/WPF/WPF-1/WPF-1)**
-+ **[Работа с изображением](https://github.com/vckit/C-Sharp-Forum/tree/master/Images/Images)**
-
-**Видео материал в [Google Disk](https://drive.google.com/drive/folders/1xA61s8E5LGttc2gJT2xzSvb-zDsz0NrV)**
++ **[Работа с изображением](https://github.com/vckit/C-Sharp-Forum/tree/master/Images/Images) | Видео материал в [Google Disk](https://drive.google.com/drive/folders/1xA61s8E5LGttc2gJT2xzSvb-zDsz0NrV)**
 + **[Экспортировать в .PDF](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/WPF/ExportToPDF/ExportToPDF)**
 + **[Экспортировать в .CSV](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/WPF/Export/Export)**
 
