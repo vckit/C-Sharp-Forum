@@ -30,3 +30,4 @@
 >+ **[WPF](https://github.com/vckit/C-Sharp-Forum/tree/master/Olds/WPF)**
 
 ># Домашка
++ Поработайте с ресурсами и проведите импорт данных из Excel в MS SQL
