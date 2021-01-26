@@ -7,6 +7,7 @@
 **В этих проектах реализованы все необходимые вам операции ADO.NET**
 
 + **[WPF-1](https://github.com/vckit/C-Sharp-Forum/tree/master/Courses/WPF/WPF-1/WPF-1)**
++ **[Работа с изображением](https://github.com/vckit/C-Sharp-Forum/tree/master/Images/Images)**
 
 **Документация**
 + **Задания Демонстрационного экзамена за август [здесь](https://github.com/vckit/C-Sharp-Forum/tree/master/Tasks%20Competation/Demo%20Teacher/09_1.9_9)**
