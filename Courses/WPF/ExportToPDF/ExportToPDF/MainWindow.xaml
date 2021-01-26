@@ -1,0 +1,33 @@
+﻿<Window x:Class="ExportToPDF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExportToPDF"
+        mc:Ignorable="d" Loaded="Window_Loaded"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.4*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <DataGrid Name="DataView" Margin="10" AutoGenerateColumns="False" ColumnWidth="*">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Имя" Binding="{Binding Name}"/>
+                    <DataGridTextColumn Header="Фамилия" Binding="{Binding Surname}"/>
+                    <DataGridTextColumn Header="Возраст" Binding="{Binding Age}"/>
+                    <DataGridTextColumn Header="Instagram" Binding="{Binding Instagram}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Button x:Name="ButtomExport"
+                    Width="200"
+                    FontSize="18"
+                    Height="35"
+                    Content="Export To PDF"
+                    Click="ButtomExport_Click"/>
+        </Grid>
+    </Grid>
+</Window>
