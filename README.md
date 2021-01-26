@@ -6,6 +6,13 @@
 Бойня неудачи не мой удел.
 Я буду упорствовать, пока не добьюсь успеха...
 
+
+#
+
+# Зона подготовки на демонстрационный экзамен 
+
++ [WPF](https://github.com/vckit/C-Sharp-Forum/tree/master/Demo/WPF)
+
 #
 
 # Зона самостоятельных работ
@@ -35,6 +42,8 @@
 + Задания Финала Национального чемпионата **[здесь](https://github.com/vckit/C-Sharp-Forum/tree/master/Tasks%20Competation/WordlSkills%20NCH%202017)**
 
 #
+
+# Курсы
 
 > Новые Курсы
 
