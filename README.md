@@ -38,7 +38,7 @@
 
 > Документация
 
-+ Задания Демонстрационного экзамена за август **[здесь](https://github.com/vckit/C-Sharp-Forum/tree/master/Tasks%20Competation/Demo%20Teacher/09_1.9_9)**
++ Задания Демонстрационного экзамена за август **[здесь](https://github.com/vckit/C-Sharp-Forum/tree/master/Tasks%20Competation/Demo%20Teacher/09A_1.9_9/09_1.9_9)**
 
 + Задания Финала Национального чемпионата **[здесь](https://github.com/vckit/C-Sharp-Forum/tree/master/Tasks%20Competation/WordlSkills%20NCH%202017)**
 
