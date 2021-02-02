@@ -39,8 +39,12 @@
 > Документация
 
 + Задания Демонстрационного экзамена за август **[здесь](https://github.com/vckit/C-Sharp-Forum/tree/master/Tasks%20Competation/Demo%20Teacher/09A_1.9_9/09_1.9_9)**
-
 + Задания Финала Национального чемпионата **[здесь](https://github.com/vckit/C-Sharp-Forum/tree/master/Tasks%20Competation/WordlSkills%20NCH%202017)**
+
+> Предположительные коды заданий на 2021:
++ **[Код 1.5](https://github.com/vckit/C-Sharp-Forum/blob/master/Tasks%20Competation/2021/Moduls/%D0%9A%D0%BE%D0%B4%201.5.pdf)**
++ **[Код 2.1](https://github.com/vckit/C-Sharp-Forum/blob/master/Tasks%20Competation/2021/Moduls/%D0%9A%D0%BE%D0%B4%202.1.pdf)**
++ **[Код 2.3](https://github.com/vckit/C-Sharp-Forum/blob/master/Tasks%20Competation/2021/Moduls/%D0%9A%D0%BE%D0%B4%202.3.pdf)**
 
 #
 
