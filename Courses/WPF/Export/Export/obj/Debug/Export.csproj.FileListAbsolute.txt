@@ -1,0 +1,15 @@
+A:\Programming\C#\WPF\Export\Export\obj\Debug\Export.csprojAssemblyReference.cache
+A:\Programming\C#\WPF\Export\Export\obj\Debug\MainWindow.g.cs
+A:\Programming\C#\WPF\Export\Export\obj\Debug\App.g.cs
+A:\Programming\C#\WPF\Export\Export\obj\Debug\Export_MarkupCompile.cache
+A:\Programming\C#\WPF\Export\Export\obj\Debug\Export_MarkupCompile.lref
+A:\Programming\C#\WPF\Export\Export\bin\Debug\Export.exe.config
+A:\Programming\C#\WPF\Export\Export\bin\Debug\Export.exe
+A:\Programming\C#\WPF\Export\Export\bin\Debug\Export.pdb
+A:\Programming\C#\WPF\Export\Export\obj\Debug\MainWindow.baml
+A:\Programming\C#\WPF\Export\Export\obj\Debug\Export.g.resources
+A:\Programming\C#\WPF\Export\Export\obj\Debug\Export.Properties.Resources.resources
+A:\Programming\C#\WPF\Export\Export\obj\Debug\Export.csproj.GenerateResource.cache
+A:\Programming\C#\WPF\Export\Export\obj\Debug\Export.csproj.CoreCompileInputs.cache
+A:\Programming\C#\WPF\Export\Export\obj\Debug\Export.exe
+A:\Programming\C#\WPF\Export\Export\obj\Debug\Export.pdb

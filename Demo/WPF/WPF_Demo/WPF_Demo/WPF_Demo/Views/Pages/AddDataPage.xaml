@@ -1,0 +1,67 @@
+﻿<Page x:Class="WPF_Demo.Views.Pages.AddDataPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPF_Demo.Views.Pages"
+      mc:Ignorable="d" FontSize="18"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddDataPage">
+
+    <Page.Resources>
+        <Style TargetType="StackPanel">
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Имя: "
+                           Width="150"/>
+                <TextBox x:Name="txbName" Style="{StaticResource FuncTextBoxStyle}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Фамилия: "
+                           Width="150"/>
+                <TextBox x:Name="txbLastname"
+                         Style="{StaticResource FuncTextBoxStyle}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Дата рождения: "
+                           Width="150"/>
+                <DatePicker Width="250"
+                            x:Name="dptDateOfBirth"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Семейный статус:"
+                           Width="150"/>
+                <ComboBox Width="250"
+                          x:Name="cmbStatusFamily"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Адрес: " 
+                           Width="150"/>
+                <TextBox x:Name="txbAddress"
+                         Style="{StaticResource FuncTextBoxStyle}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Email: " 
+                           Width="150"/>
+                <TextBox x:Name="txbEmail"
+                         Style="{StaticResource FuncTextBoxStyle}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <Button x:Name="btnBack" Style="{StaticResource FuncButtonStyle}"
+                        Content="Назад"
+                        Click="btnBack_Click"/>
+                <Button x:Name="btnSave" Style="{StaticResource FuncButtonStyle}"
+                        Content="Сохранить"
+                        Click="btnSave_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

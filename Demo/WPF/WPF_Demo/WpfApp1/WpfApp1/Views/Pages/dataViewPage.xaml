@@ -1,0 +1,90 @@
+﻿<Page x:Class="WpfApp1.Views.Pages.dataViewPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Loaded="Page_Loaded"
+      Title="dataViewPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.4*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <ListView x:Name="DataListView"
+                      MouseDoubleClick="DataListView_MouseDoubleClick">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid Grid.Column="0">
+                                <Image x:Name="Picture"
+                                       Source="{Binding Picture}"
+                                       Width="200"
+                                       Height="200"/>
+                            </Grid>
+
+                            <Grid Grid.Column="1" Margin="10,20,0,0">
+                                <StackPanel HorizontalAlignment="Center"
+                                            VerticalAlignment="Center">
+                                    <Label Content="{Binding Name}" ContentStringFormat="Название книги: {0}"/>
+                                    <Label Content="{Binding Genre.Name}" ContentStringFormat="Жанр: {0}"/>
+                                    <Label Content="{Binding CountPage}" ContentStringFormat="Количество страниц: {0}"/>
+                                    <Label Content="{Binding Author.FirstName}" ContentStringFormat="Имя автора: {0}"/>
+                                    <Label Content="{Binding Author.LastName}" ContentStringFormat="Фамилия автора: {0}"/>
+                                    <Label Content="{Binding Price}" ContentStringFormat="Цена: {0:C}"/>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <StackPanel HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Orientation="Horizontal">
+                <Button x:Name="ButtonAddData" 
+                        Content="Добавить"
+                        FontSize="18"
+                        Width="200"
+                        Height="35"
+                        Click="ButtonAddData_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+                <Button x:Name="ButtonRemoveData" 
+                        Content="Удалить"
+                        Margin="10,0,0,0"
+                        FontSize="18"
+                        Width="200"
+                        Height="35"
+                        Click="ButtonRemoveData_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
