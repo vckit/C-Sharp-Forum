@@ -1,0 +1,89 @@
+﻿<Page x:Class="Olimpiad.Views.Pages.AddEditServicePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Olimpiad.Views.Pages"
+      mc:Ignorable="d" FontSize="14"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Добавление/Редактирование">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <StackPanel HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal"
+                            Name="PanelId">
+                    <TextBlock Text="ID: "/>
+                    <TextBlock Name="txbId"/>
+                </StackPanel>
+                <TextBlock Text="Наименование услуги: "/>
+                <TextBox Name="txbTitle"/>
+                <TextBlock Text="Цена: "/>
+                <TextBox Name="txbCost"/>
+                <TextBlock Text="Длительность: "/>
+                <TextBox Name="txbDuration"/>
+                <TextBlock Text="Описание: "/>
+                <TextBox Name="txbDescription"/>
+                <TextBlock Text="Скидка: "/>
+                <TextBox Name="txbDiscount"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="13*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Grid.RowSpan="2">
+                <StackPanel HorizontalAlignment="Center"
+                            VerticalAlignment="Center">
+                    <Image Name="imgMainPic"
+                       Width="150"
+                       Height="150"/>
+                    <Button Name="btnLoadImgMain"
+                            Content="Выбрать"
+                            Click="btnLoadImgMain_Click"/>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Column="1" Grid.RowSpan="2">
+                <StackPanel HorizontalAlignment="Center"
+                            VerticalAlignment="Center">
+                    <ListView Width="190"
+                          Height="150"
+                          Name="lvOtherPicService"/>
+                    <TextBlock Background="DimGray"
+                               TextWrapping="Wrap"
+                               AllowDrop="True"
+                               Drop="TextBlock_Drop"
+                               DragEnter="TextBlock_DragEnter">
+                        Перетащите сюда дополнительно 
+                        изображение
+                        <LineBreak/>
+                    </TextBlock>
+                    <StackPanel x:Name="PanelRemoveAllPic">
+                        <Button Name="RemoveAllOtherPic"
+                                Content="Удалить все доп. изображения"
+                                Click="RemoveAllOtherPic_Click"/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+            <StackPanel Grid.Row="1" 
+                        HorizontalAlignment="Center" Grid.ColumnSpan="2">
+                <Button Content="Сохранить"
+                        Width="300"
+                        Name="SaveButton"
+                        Click="SaveButton_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,101 @@
+﻿<Page x:Class="Olymp2021.Views.Pages.ServiceViewPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Olymp2021.Properties"
+      mc:Ignorable="d" FontSize="14"
+      d:DesignHeight="550" d:DesignWidth="950"
+      Title="ServiceViewPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <StackPanel Orientation="Horizontal"
+                        VerticalAlignment="Center">
+                <TextBlock Text="Сортировка: "
+                           Margin="10,0,10,0"/>
+                <ComboBox Name="cmbSort"
+                          Width="200">
+                    <ComboBoxItem>По убыванию</ComboBoxItem>
+                    <ComboBoxItem>По возрастанию</ComboBoxItem>
+                </ComboBox>
+
+                <TextBlock Text="Сортировка по скидкам"
+                           Margin="10,0,10,0"/>
+                <ComboBox Name="cmbSortDiscount"
+                          Width="200">
+                    <ComboBoxItem>от 0% до 5%</ComboBoxItem>
+                    <ComboBoxItem>от 5% до 15%</ComboBoxItem>
+                    <ComboBoxItem>от 15% до 30%</ComboBoxItem>
+                    <ComboBoxItem>от 30% до 70%</ComboBoxItem>
+                    <ComboBoxItem>от 70% до 100%</ComboBoxItem>
+                    <ComboBoxItem>Все</ComboBoxItem>
+                </ComboBox>
+                <TextBlock Text="Поиск: "
+                           Margin="10,0,10,0"/>
+                <TextBox Name="txbSearch"
+                         Width="200"/>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <ListView>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0">
+                                <Image Source="{Binding Photo}"
+                                       Width="150"
+                                       Height="150"/>
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <StackPanel>
+                                    <Label Content="{Binding Title}"/>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{Binding Cost, StringFormat={}{0:#.#}}"
+                                                   Visibility="{Binding Visible}"
+                                                   TextDecorations="Strikethrough" 
+                                                   FontSize="17"
+                                                   FontWeight="Bold"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+        <Grid Grid.Row="2">
+
+        </Grid>
+        <Grid Grid.Row="3">
+            <StackPanel HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Orientation="Horizontal"
+                        Visibility="{Binding Source={x:Static local:Settings.Default}, Path=isAdmin}">
+                <Button Name="btnAddService"
+                        Content="Добавить услугу"
+                        Width="200"
+                        Click="btnAddService_Click"/>
+                <Button Name="btnAddClient"
+                        Content="Добавить клиента"
+                        Width="200"
+                        Click="btnAddClient_Click"
+                        Margin="10,0,10,0"/>
+                <Button Name="btnViewNotes"
+                        Content="Посмотреть записи"
+                        Width="200"
+                        Click="btnViewNotes_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

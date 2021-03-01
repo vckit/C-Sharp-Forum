@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a07640a535a246e381387994b2482d00" Name="Diagram1">
+        <EntityTypeShape EntityType="Olymp2021Model.Client" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Olymp2021Model.ClientService" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Olymp2021Model.Gender" Width="1.5" PointX="1.5" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Olymp2021Model.Service" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Olymp2021Model.ServicePhoto" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="Olymp2021Model.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="Olymp2021Model.FK_ClientService_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="Olymp2021Model.FK_ClientService_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="Olymp2021Model.FK_ServicePhoto_Service" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

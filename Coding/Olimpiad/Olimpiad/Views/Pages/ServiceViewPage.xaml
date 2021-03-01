@@ -1,0 +1,125 @@
+﻿<Page x:Class="Olimpiad.Views.Pages.ServiceViewPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Olimpiad.Properties"
+      mc:Ignorable="d" FontSize="14" Loaded="Page_Loaded"
+      d:DesignHeight="450" d:DesignWidth="950"
+      Title="Список услуг">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <StackPanel VerticalAlignment="Center"
+                        Orientation="Horizontal">
+                <TextBlock Text="Сортировка: "
+                           Margin="10,0,10,0"/>
+                <ComboBox Name="cmbSort" 
+                          SelectionChanged="cmbSort_SelectionChanged"
+                          Width="200">
+                    <ComboBoxItem>По убыванию</ComboBoxItem>
+                    <ComboBoxItem>По воразстанию</ComboBoxItem>
+                </ComboBox>
+                <TextBlock Text="Выбор по скидкам: "
+                           Margin="10,0,10,0"/>
+                <ComboBox Name="cmbSortDiscount"
+                          SelectionChanged="cmbSortDiscount_SelectionChanged"
+                          Width="200">
+                    <ComboBoxItem>от 0% до 5%</ComboBoxItem>
+                    <ComboBoxItem>от 5% до 15%</ComboBoxItem>
+                    <ComboBoxItem>от 15% до 30%</ComboBoxItem>
+                    <ComboBoxItem>от 30% до 70%</ComboBoxItem>
+                    <ComboBoxItem>от 70% до 100%</ComboBoxItem>
+                    <ComboBoxItem>Все</ComboBoxItem>
+                </ComboBox>
+                <TextBlock Text="Поиск: "
+                           Margin="10,0,10,0"/>
+                <TextBox Name="txbSearch"
+                         TextChanged="txbSearch_TextChanged"
+                         Width="200"/>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <ListView Name="listServiceData">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0">
+                                <Image Source="{Binding Photo}"
+                                       Width="150"
+                                       Height="150"/>
+                            </Grid>
+
+                            <Grid Grid.Column="1"
+                                  Margin="10,10,0,0">
+                                <StackPanel>
+                                    <!--первая часть-->
+                                    <TextBlock Text="{Binding Title}"/>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{Binding Cost, StringFormat={}{0:#.#}}" Visibility="{Binding Visible}" TextDecorations="Strikethrough"/>
+                                        <TextBlock Text="   "/>
+                                        <Label Content="{Binding Price, StringFormat={}{0:#.#}}" ContentStringFormat="{}{0} рублей за "/>
+                                        <Label Content="{Binding Minute}" ContentStringFormat="{}{0} минут"/>
+                                    </StackPanel>
+                                    <!--вторая часть-->
+                                    <StackPanel Background="{Binding BackgroundColor}" Orientation="Horizontal">
+                                        <Label Content="{Binding Discount}" ContentStringFormat="*скидка: {0}%"/>
+                                    </StackPanel>
+                                    <!--кнопки-->
+                                    <StackPanel Orientation="Horizontal"
+                                                Visibility="{Binding Source={x:Static local:Settings.Default}, Path=isAdmin}">
+                                        <Button Width="150"
+                                                Content="Редактировать"
+                                                Name="btnSelectedServiceEdit"
+                                                Click="btnSelectedServiceEdit_Click"/>
+                                        <Button Width="150"
+                                                Content="Удалить"
+                                                Name="btnSelectedServiceRemove"
+                                                Click="btnSelectedServiceRemove_Click"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+        <Grid Grid.Row="2">
+            <TextBlock Name="txbCountVisibleItem"
+                       FontSize="18"
+                       FontWeight="Bold"
+                       Margin="20,0,0,0"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Center"/>
+        </Grid>
+        <Grid Grid.Row="3">
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Visibility="{Binding Source={x:Static local:Settings.Default}, Path=isAdmin}">
+                <Button Name="btnAddService"
+                        Click="btnAddService_Click"
+                        Content="Добавить услугу"
+                        Width="200"/>
+                <Button Name="btnAddClient"
+                        Content="Записать клиента на услугу"
+                        Width="200"
+                        Margin="10,0,10,0"/>
+                <Button Name="btnViewNotes"
+                        Content="Посмотреть записи"
+                        Click="btnViewNotes_Click"
+                        Width="200"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
