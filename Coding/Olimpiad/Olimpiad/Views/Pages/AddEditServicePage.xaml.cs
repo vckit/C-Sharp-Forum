@@ -138,7 +138,8 @@ namespace Olimpiad.Views.Pages
                     {
                         try
                         {
-                            service.Title = txbTitle.Text; service.Cost = Convert.ToDecimal(txbCost.Text);
+                            service.Title = txbTitle.Text;
+                            service.Cost = Convert.ToDecimal(txbCost.Text);
                             service.DurationInSeconds = Convert.ToInt32(txbDuration.Text);
                             service.Description = txbDescription.Text;
                             service.Discount = Convert.ToDouble(txbDiscount.Text);
@@ -197,7 +198,7 @@ namespace Olimpiad.Views.Pages
                         for (int i = 0; i < picturesPath.Count; i++)
                         {
                             ServicePhoto servicePhoto = new ServicePhoto();
-                            //servicePhoto.ServiceID = _service.ID;
+                            servicePhoto.ServiceID = _service.ID;
                             servicePhoto.PhotoPath = $"Услуги школы\\{System.IO.Path.GetFileName(picturesPath[i])}";
                             File.Copy(picturesPath[i], $"Услуги школы\\{System.IO.Path.GetFileName(picturesPath[i])}", true);
                             DbContextObject.db.ServicePhoto.Add(servicePhoto);
