@@ -64,6 +64,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Views\Pages\AddClientPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Pages\AddEditServicePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -73,6 +77,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Pages\ServiceViewPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\ViewNotePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -121,6 +129,9 @@
     <Compile Include="Model\sysdiagrams.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="Views\Pages\AddClientPage.xaml.cs">
+      <DependentUpon>AddClientPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Pages\AddEditServicePage.xaml.cs">
       <DependentUpon>AddEditServicePage.xaml</DependentUpon>
     </Compile>
@@ -129,6 +140,9 @@
     </Compile>
     <Compile Include="Views\Pages\ServiceViewPage.xaml.cs">
       <DependentUpon>ServiceViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\ViewNotePage.xaml.cs">
+      <DependentUpon>ViewNotePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Windows\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

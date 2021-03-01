@@ -66,7 +66,8 @@
                                     <!--первая часть-->
                                     <TextBlock Text="{Binding Title}"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="{Binding Cost, StringFormat={}{0:#.#}}" Visibility="{Binding Visible}" TextDecorations="Strikethrough"/>
+                                        <TextBlock Text="{Binding Cost, StringFormat={}{0:#.#}}" Visibility="{Binding Visible}"
+                                                   TextDecorations="Strikethrough"/>
                                         <TextBlock Text="   "/>
                                         <Label Content="{Binding Price, StringFormat={}{0:#.#}}" ContentStringFormat="{}{0} рублей за "/>
                                         <Label Content="{Binding Minute}" ContentStringFormat="{}{0} минут"/>
@@ -112,6 +113,7 @@
                         Content="Добавить услугу"
                         Width="200"/>
                 <Button Name="btnAddClient"
+                        Click="btnAddClient_Click"
                         Content="Записать клиента на услугу"
                         Width="200"
                         Margin="10,0,10,0"/>

@@ -149,8 +149,8 @@ namespace Olimpiad.Views.Pages
                             {
                                 ServicePhoto servicePhoto = new ServicePhoto();
                                 servicePhoto.ServiceID = _service.ID;
-                                servicePhoto.PhotoPath = $"Услуги школы\\" + System.IO.Path.GetFileName(picturesPath[i]);
-                                File.Copy(picturesPath[i], $"Услуги школы\\ {System.IO.Path.GetFileName(picturesPath[i])}", true);
+                                servicePhoto.PhotoPath = $" Услуги школы\\ {System.IO.Path.GetFileName(picturesPath[i]).Trim()}";
+                                File.Copy(picturesPath[i], $"Услуги школы\\ {System.IO.Path.GetFileName(picturesPath[i]).Trim()}", true);
                                 DbContextObject.db.ServicePhoto.Add(servicePhoto);
                                 DbContextObject.db.SaveChanges();
                             }
@@ -195,10 +195,11 @@ namespace Olimpiad.Views.Pages
                             service.MainImagePath = $"Услуги школы\\{System.IO.Path.GetFileName(_generalPicturesPath)}";
                         }
                         DbContextObject.db.Service.Add(service);
+                        DbContextObject.db.SaveChanges();
                         for (int i = 0; i < picturesPath.Count; i++)
                         {
                             ServicePhoto servicePhoto = new ServicePhoto();
-                            servicePhoto.ServiceID = _service.ID;
+                            servicePhoto.ServiceID = service.ID;
                             servicePhoto.PhotoPath = $"Услуги школы\\{System.IO.Path.GetFileName(picturesPath[i])}";
                             File.Copy(picturesPath[i], $"Услуги школы\\{System.IO.Path.GetFileName(picturesPath[i])}", true);
                             DbContextObject.db.ServicePhoto.Add(servicePhoto);

@@ -94,7 +94,7 @@ namespace Olimpiad.Views.Pages
 
         private void btnViewNotes_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new ViewNotePage());
         }
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
@@ -123,6 +123,13 @@ namespace Olimpiad.Views.Pages
         private void btnAddService_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new AddEditServicePage());
+        }
+
+        private void btnAddClient_Click(object sender, RoutedEventArgs e)
+        {
+            var selectedItem = listServiceData.SelectedItem as Service;
+            if (selectedItem != null)
+                NavigationService.Navigate(new AddClientPage(selectedItem));
         }
     }
 }

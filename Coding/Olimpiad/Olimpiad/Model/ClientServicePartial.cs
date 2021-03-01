@@ -11,7 +11,7 @@ namespace Olimpiad.Model
             {
                 string line = (StartTime - DateTime.Now).ToString();
                 string[] time = line.Split(':');
-                return $"{line[0]} часов {line[1]} минут";
+                return $"{time[0]} часов {time[1]} минут";
             }
         }
         // свойство возвращает цвет если запись уже горит
