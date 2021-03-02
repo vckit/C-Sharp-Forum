@@ -104,9 +104,9 @@ namespace Olimpiad.Views.Pages
                         }
                     }
                 }
-                DbContextObject.db.SaveChanges();
                 imgMainPic.Source = null;
                 lvOtherPicService.Items.Clear();
+                DbContextObject.db.SaveChanges();
             }
             catch (Exception ex)
             {
@@ -191,8 +191,8 @@ namespace Olimpiad.Views.Pages
                         service.Discount = Convert.ToDouble(txbDiscount.Text);
                         if (!string.IsNullOrEmpty(_generalPicturesPath) && !string.IsNullOrWhiteSpace(_generalPicturesPath))
                         {
-                            File.Copy(_generalPicturesPath, $"Услуги школы\\{System.IO.Path.GetFileName(_generalPicturesPath)}", true);
-                            service.MainImagePath = $"Услуги школы\\{System.IO.Path.GetFileName(_generalPicturesPath)}";
+                            File.Copy(_generalPicturesPath, $"Услуги школы\\ {System.IO.Path.GetFileName(_generalPicturesPath)}", true);
+                            service.MainImagePath = $"Услуги школы\\ {System.IO.Path.GetFileName(_generalPicturesPath)}";
                         }
                         DbContextObject.db.Service.Add(service);
                         DbContextObject.db.SaveChanges();

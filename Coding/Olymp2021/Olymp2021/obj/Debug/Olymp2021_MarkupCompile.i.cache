@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-A:\Develop\Project\Olymp2021\Olymp2021\obj\Debug\
+C:\Users\thevc\Downloads\github\C-Sharp-Forum\Coding\Olymp2021\Olymp2021\obj\Debug\
 Olymp2021
 none
 false
 DEBUG;TRACE
-A:\Develop\Project\Olymp2021\Olymp2021\App.xaml
-3-2093641071
+C:\Users\thevc\Downloads\github\C-Sharp-Forum\Coding\Olymp2021\Olymp2021\App.xaml
+61802407558
 2482335943
-18487564310
-18285772633
-Views\Pages\LoginPage.xaml;Views\Pages\ServiceViewPage.xaml;Views\Windows\MainWindow.xaml;
+231539207906
+18843150008
+Views\Pages\AddClientPage.xaml;Views\Pages\AddEditServicePage.xaml;Views\Pages\LoginPage.xaml;Views\Pages\ServiceViewPage.xaml;Views\Pages\ViewNotePage.xaml;Views\Windows\MainWindow.xaml;
 
-False
+True
 

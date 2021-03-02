@@ -5,8 +5,9 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Olymp2021.Properties"
       mc:Ignorable="d" FontSize="14"
+      Loaded="Page_Loaded"
       d:DesignHeight="550" d:DesignWidth="950"
-      Title="ServiceViewPage">
+      Title="Окно списка услуг">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -21,6 +22,7 @@
                 <TextBlock Text="Сортировка: "
                            Margin="10,0,10,0"/>
                 <ComboBox Name="cmbSort"
+                          SelectionChanged="cmbSort_SelectionChanged"
                           Width="200">
                     <ComboBoxItem>По убыванию</ComboBoxItem>
                     <ComboBoxItem>По возрастанию</ComboBoxItem>
@@ -29,7 +31,8 @@
                 <TextBlock Text="Сортировка по скидкам"
                            Margin="10,0,10,0"/>
                 <ComboBox Name="cmbSortDiscount"
-                          Width="200">
+                          Width="200"
+                          SelectionChanged="cmbSortDiscount_SelectionChanged">
                     <ComboBoxItem>от 0% до 5%</ComboBoxItem>
                     <ComboBoxItem>от 5% до 15%</ComboBoxItem>
                     <ComboBoxItem>от 15% до 30%</ComboBoxItem>
@@ -40,11 +43,12 @@
                 <TextBlock Text="Поиск: "
                            Margin="10,0,10,0"/>
                 <TextBox Name="txbSearch"
+                         TextChanged="txbSearch_TextChanged"
                          Width="200"/>
             </StackPanel>
         </Grid>
         <Grid Grid.Row="1">
-            <ListView>
+            <ListView Name="ServiceListView">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <Grid>
@@ -57,7 +61,8 @@
                                        Width="150"
                                        Height="150"/>
                             </Grid>
-                            <Grid Grid.Column="1">
+                            <Grid Grid.Column="1"
+                                  Margin="20,20,0,0">
                                 <StackPanel>
                                     <Label Content="{Binding Title}"/>
                                     <StackPanel Orientation="Horizontal">
@@ -66,6 +71,23 @@
                                                    TextDecorations="Strikethrough" 
                                                    FontSize="17"
                                                    FontWeight="Bold"/>
+                                        <TextBlock Text="   "/>
+                                        <Label Content="{Binding Price, StringFormat={}{0:#.#}}" ContentStringFormat="{}{0} рублей за"/>
+                                        <Label Content="{Binding Minute}" ContentStringFormat="{}{0} минут"/>
+                                    </StackPanel>
+                                    <StackPanel Background="{Binding BackgroundColor}" Orientation="Horizontal">
+                                        <Label Content="{Binding Discount}" ContentStringFormat="Cкидка: {0}"/>
+                                    </StackPanel>
+                                    <StackPanel Visibility="{Binding Source={x:Static local:Settings.Default}, Path=isAdmin}"
+                                                Orientation="Horizontal">
+                                        <Button Name="EditSelectedItemButton" 
+                                                Width="150"
+                                                Click="EditSelectedItemButton_Click"
+                                                Content="Редактировать"/>
+                                        <Button Name="RemoveSelectedItemButton"
+                                                Width="150"
+                                                Click="RemoveSelectedItemButton_Click"
+                                                Content="Удалить"/>
                                     </StackPanel>
                                 </StackPanel>
                             </Grid>
@@ -75,7 +97,13 @@
             </ListView>
         </Grid>
         <Grid Grid.Row="2">
-
+            <StackPanel HorizontalAlignment="Left"
+                        VerticalAlignment="Center">
+                <TextBlock Name="CountItemsDB"
+                           FontSize="17"
+                           FontWeight="Bold"
+                           Margin="20,0,0,0"/>
+            </StackPanel>
         </Grid>
         <Grid Grid.Row="3">
             <StackPanel HorizontalAlignment="Center"

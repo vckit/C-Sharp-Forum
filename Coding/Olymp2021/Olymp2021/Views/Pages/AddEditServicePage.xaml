@@ -1,0 +1,92 @@
+﻿<Page x:Class="Olymp2021.Views.Pages.AddEditServicePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Olymp2021.Views.Pages"
+      mc:Ignorable="d" FontSize="15"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Добавление / Редактирование">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <StackPanel HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Width="300">
+                <StackPanel Orientation="Horizontal"
+                            Name="spId">
+                    <TextBlock Text="ID"/>
+                    <TextBlock Name="txbId"/>
+                </StackPanel>
+
+                <TextBlock Text="Наименование услуги: "/>
+                <TextBox Name="txbTitle"/>
+                <TextBlock Text="Стоимость: "/>
+                <TextBox Name="txbCost"
+                         PreviewTextInput="txbCost_PreviewTextInput"/>
+                <TextBlock Text="Длительность: "/>
+                <TextBox Name="txbDuration"
+                         PreviewTextInput="txbDuration_PreviewTextInput"/>
+                <TextBlock Text="Скидка: "/>
+                <TextBox Name="txbDicount"
+                         PreviewTextInput="txbDicount_PreviewTextInput"/>
+                <TextBlock Text="Описание: "/>
+                <TextBox Name="txbDescription"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="13*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center" Margin="25,138,25,78">
+                <Image Width="150"
+                       Height="150"
+                       Name="ImgMainPic"/>
+                <Button Name="btnLoadMainPic"
+                        Click="btnLoadMainPic_Click"
+                        Content="Выбрать"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center" Margin="25,120,25,60">
+                <ListView Name="lvOtherPicture"
+                          Width="150"
+                          Height="150"/>
+                <TextBlock AllowDrop="True"
+                           Drop="TextBlock_Drop"
+                           DragEnter="TextBlock_DragEnter"
+                           TextWrapping="Wrap"
+                           Background="Gray">
+                    Перетащите сюда дополнительные 
+                    <LineBreak/>
+                    картинки услуги
+                </TextBlock>
+            </StackPanel>
+            <StackPanel Grid.ColumnSpan="2"
+                        Grid.Row="1"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <Button Content="Удалить все доп. картинки"
+                        Name="RemoveAllOthrePic"
+                        Click="RemoveAllOthrePic_Click"/>
+                <Button Name="SaveButton"
+                        Content="Сохранить"
+                        Width="250"
+                        Click="SaveButton_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

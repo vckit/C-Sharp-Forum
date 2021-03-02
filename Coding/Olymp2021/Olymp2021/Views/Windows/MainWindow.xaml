@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Olymp2021"
         mc:Ignorable="d" FontSize="15"
+        Icon="/Assests/school_logo.ico"
         Title="{Binding ElementName=mainFrame, Path=Content.Title}" Height="550" Width="950">
     <Grid>
         <Grid.RowDefinitions>
