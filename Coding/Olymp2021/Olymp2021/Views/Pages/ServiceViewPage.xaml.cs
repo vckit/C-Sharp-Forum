@@ -93,7 +93,7 @@ namespace Olymp2021.Views.Pages
                     if(MessageBox.Show("Вы действительно хотите удалить эту запись?", "Подтвердите удаление услуги!", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
                     {
                         var existNotes = DbContextObject.db.ClientService.Where(item => item.ServiceID == selectedItem.ID).ToList();
-                        if (existNotes.Count != 0)
+                        if (existNotes.Count == 0)
                         {
                             var pictures = DbContextObject.db.ServicePhoto.Where(item => item.ServiceID == selectedItem.ID).ToList();
                             foreach (var item in pictures)
